@@ -7,8 +7,6 @@ npm install e53e04ac/key-value-storage
 ~~~~~ mermaid
 graph RL;
   A(["package.json"]);
-  subgraph "dependencies";
-  end;
   subgraph "devDependencies";
     B_0(["@types/node"]);
   end;
@@ -17,11 +15,15 @@ graph RL;
 ~~~~~
 
 ~~~~~ mermaid
-graph LR;
-  A(["index.mjs"])
+graph RL;
+  subgraph "e53e04ac/key-value-storage";
+  end;
+  M(["index.mjs"])
 ~~~~~
 
 ~~~~~ mermaid
-graph LR;
-  A(["index.d.ts"])
+graph RL;
+  subgraph "e53e04ac/key-value-storage";
+  end;
+  M(["index.d.ts"])
 ~~~~~
