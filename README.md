@@ -4,9 +4,6 @@
 npm install e53e04ac/key-value-storage
 ~~~~~
 
-~~~~~ mjs
-~~~~~
-
 ~~~~~ mermaid
 graph LR;
   A(["key-value-storage"]);
