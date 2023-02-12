@@ -21,5 +21,9 @@ graph RL;
 
 ~~~~~ mermaid
 graph RL;
+  subgraph "e53e04ac/key-value-storage";
+    E_0(["namespace KeyValueStorage"]);
+  end;
   M(["index.d.ts"])
+  E_0 ----> M;
 ~~~~~
